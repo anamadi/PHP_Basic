@@ -12,6 +12,7 @@ for($i=0; $i < count($arrayRepeticiones); $i++)
         $repeticiones++;
     }
 }
+
 var_dump($arrayRepeticiones);
 echo "<br/>El valor $valor se repite en el array $repeticiones veces.<br/>";
 
