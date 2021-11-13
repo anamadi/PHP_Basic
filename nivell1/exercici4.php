@@ -19,7 +19,6 @@ $x = 9;
 $y = 5;
 $N = 5.25;
 $M = 2.75;
-$doble = 2;
 
 echo "x = $x, y = $y, N = $N, M = $M. <br/>";
 echo "$x + $y = ".$x+$y.".</br>";
@@ -30,11 +29,14 @@ echo "$N + $M = ".$N+$M.".</br>";
 echo "$N - $M = ".$N-$M.".</br>";
 echo "$N * $M = ".$N*$M.".</br>";
 echo "$N % $M = ".$N%$M.".</br>";
-echo "$x * 2 = ".$x*$doble.".</br>";
-echo "$y * 2 = ".$y*$doble.".</br>";
-echo "$N * 2 = ".$N*$doble.".</br>";
-echo "$M * 2 = ".$M*$doble.".</br>";
+echo "$x * 2 = ".$x*2;
+echo ".</br>";
+echo "$y * 2 = ".$y*2;
+echo ".</br>";
+echo "$N * 2 = ".$N*2;
+echo ".</br>";
+echo "$M * 2 = ".$M*2;
+echo ".</br>";
 echo "$x + $y + $N + $M = ".$x+$y+$N+$M.".<br/>";
 echo "$x * $y * $N * $M = ".$x*$y*$N*$M.".<br/>";
-
 ?>

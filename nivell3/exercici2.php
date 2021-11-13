@@ -3,17 +3,17 @@
 
 $valor = 8;
 $arrayRepeticiones = array(2,8,7,8,4,8,9,8);
-$repeticiones = 0;
+var_dump($arrayRepeticiones);
+$cuenta = array_count_values($arrayRepeticiones);
 
-for($i=0; $i < count($arrayRepeticiones); $i++)
+foreach($cuenta as $numero=>$repeticiones)
 {
-    if($arrayRepeticiones[$i] == $valor)
+    if($numero == $valor)
     {
-        $repeticiones++;
+        echo "<br/>El valor $valor se repite en el array $repeticiones veces.<br/>";
     }
 }
 
-var_dump($arrayRepeticiones);
-echo "<br/>El valor $valor se repite en el array $repeticiones veces.<br/>";
+
 
 ?>
